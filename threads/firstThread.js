@@ -9,7 +9,6 @@ self.onmessage = function (e) {
       }, 100);
       return;
     }
-    interval = true;
   }
   if (e.data === 'stop') {
     clearInterval(interval);
